@@ -8,8 +8,10 @@ def guess(x):
            print("Lower")
        elif guess < random_number:
             print("Higher")
-       elif guess == random_number + 1:
-           print('Almost')
+       #elif guess == random_number + 1: I want to make this to be 1 more than the number guessed.
+           #print('Almost')
+       #elif guess == random_number - 1: I want to make this to be 1 less than the number guessed.
+           #print('Almost') 
     
     print(f"That is correct! The number was {random_number}")
 
